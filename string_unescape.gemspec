@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "String#unescape"
   spec.description   = "Easy String#undump"
   spec.homepage      = "https://github.com/tadd/string_unescape"
+  spec.required_ruby_version = ">= 2.5.0"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test)/})
