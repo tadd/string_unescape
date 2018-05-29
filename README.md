@@ -12,7 +12,7 @@ puts '\xE3\x81\x9F\xE3\x81\xAE\xE3\x81\x97\xE3\x83\xBC'.unescape #=> たのし�
 puts '\u{1F43E}'.unescape #=> 🐾
 ```
 
-Note that you don't need to wrap the string with '"'.
+Note that you don't need to wrap the string with `"`.
 
 See [testcase](https://github.com/tadd/string_unescape/blob/master/test/test_string_unescape.rb) also.
 
