@@ -14,7 +14,7 @@ puts '\u{1F43E}'.unescape #=> 🐾
 
 Note that you don't need to wrap the string with '"'.
 
-See [testcase](https://github.com/tadd/string_unescape/blob/master/test/test_unescape.rb) also.
+See [testcase](https://github.com/tadd/string_unescape/blob/master/test/test_string_unescape.rb) also.
 
 ## Supported Ruby versions
 
