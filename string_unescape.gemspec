@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "bundler", "> 1"
   spec.add_development_dependency "rake", ">= 10.0"
   spec.add_development_dependency "test-unit", "> 0"
 end
